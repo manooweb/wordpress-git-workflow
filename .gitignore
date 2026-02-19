@@ -1,0 +1,15 @@
+wp-content/cache/
+wp-content/litespeed/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/uploads/
+wp-content/plugins/urvanov-syntax-highlighter/log.txt
+
+*.shtml
+*.log
+*.bk
+*.bkp
+error_log
+
+composer.lock
+/vendor/
