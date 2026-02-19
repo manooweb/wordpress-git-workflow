@@ -27,6 +27,8 @@ This is **not** a starter kit or boilerplate.
 
 ✅ Included:
 - `.gitignore` extracted from real-world usage
+- `env-loader.php` used to load environment variables outside the webroot
+- a minimal `composer.json` to install the required dependency
 - Notes about common pitfalls and operational choices
 - A durable technical entry point linked to the article
 

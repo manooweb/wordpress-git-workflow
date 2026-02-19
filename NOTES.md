@@ -46,6 +46,43 @@ This makes the configuration:
 
 ---
 
+## 🔑 Environment loading
+
+### `env-loader.php`
+
+This repository includes an `env-loader.php` file.
+
+Its role is to:
+- load environment variables from a `.env` file located **outside the webroot**
+- make them available early in the WordPress bootstrap process
+- keep sensitive and environment-specific values **out of `wp-config.php`**
+
+This file is part of the core design:
+- `wp-config.php` stays versioned and identical across environments
+- secrets and environment-specific configuration live in `.env`
+- the boundary between code and environment is explicit
+
+The exact `.env` content is intentionally not documented here.
+
+---
+
+## 📦 Composer usage
+
+### `composer.json`
+
+A minimal `composer.json` is included to install the dependency used by
+`env-loader.php`.
+
+Composer is **not** used here to manage WordPress itself, themes or plugins.
+
+Its purpose is strictly limited to:
+- installing a small, well-defined PHP dependency
+- keeping the environment loading mechanism explicit and reproducible
+
+The `vendor/` directory is excluded from Git and generated locally.
+
+---
+
 ## ⚠️ Common pitfalls
 
 ### Editing directly on production
