@@ -3,7 +3,7 @@
 
 This repository is a lightweight technical companion to my article (FR):
 
-📖 **“Maintenir WordPress avec Git entre local et production”**
+📖 **“Maintenir WordPress avec Git entre local et production”**<br>
 ➡️ https://manooweb.fr/maintenir-wordpress-avec-git-entre-local-et-production/
 
 The article explains the full reasoning and workflow.
