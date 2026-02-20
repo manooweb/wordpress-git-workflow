@@ -5,6 +5,8 @@ wp-content/upgrade-temp-backup/
 wp-content/uploads/
 wp-content/plugins/urvanov-syntax-highlighter/log.txt
 
+wp-config-sample.php
+
 *.shtml
 *.log
 *.bk
